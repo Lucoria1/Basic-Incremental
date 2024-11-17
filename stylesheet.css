@@ -1,0 +1,23 @@
+div{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 3px;
+}
+
+body{
+    background-color: black;
+}
+
+.btn{
+    background-color: rgb(148, 224, 169);
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 2px solid green;
+    transition: 0.3s;
+}
+
+.btn:active{
+    background-color: green;
+}
